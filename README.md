@@ -1,1 +1,1 @@
-# fintech-mobile-qa-demo
+# fintech-web&mobile-qa-demo
