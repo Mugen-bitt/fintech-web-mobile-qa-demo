@@ -6,12 +6,11 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class UserApiTest extends BaseApiTest {
-    // baseURI и Content-Type уже подтягиваются автоматически
 }
 
     @Test
     void getUser_shouldReturnUserData() {
-        // 🔍 Проверка: GET-запрос к /users/1 должен вернуть статус 200
+        // Проверка: GET-запрос к /users/1 должен вернуть статус 200
         // и содержать id=1 и непустое имя пользователя
         given()
             .when()
