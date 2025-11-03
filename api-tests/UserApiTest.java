@@ -5,12 +5,9 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class UserApiTest {
-
-    static {
-        // Устанавливаем базовый URL для всех запросов
-        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
-    }
+public class UserApiTest extends BaseApiTest {
+    // baseURI и Content-Type уже подтягиваются автоматически
+}
 
     @Test
     void getUser_shouldReturnUserData() {
