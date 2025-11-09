@@ -31,6 +31,11 @@
 
 В боевом проекте фреймворк строился по слоям:
 
+Пример структуры:
+framework/core/BaseTest.java
+framework/pages/LoginPage.java
+framework/api/LoanApi.java
+
 - `core` — базовые классы (`BaseTest`, конфигурация, логирование)
 - `pages` — Page Object-ы для экранов/страниц
 - `api` — клиент для REST-запросов и обёртки над Rest Assured
@@ -46,7 +51,3 @@
 ```bash
 mvn clean test -Denv=stage -Dthreads=4
 
-Пример структуры:
-framework/core/BaseTest.java
-framework/pages/LoginPage.java
-framework/api/LoanApi.java
