@@ -6,7 +6,7 @@
 
 Пример пайплайна GitLab CI:
 
-![GitLab Pipeline](docs/gitlab-pipeline.png)
+![GitLab Pipeline](docs/pipeline.png)
 
 На боевом проекте результаты автотестов автоматически выгружались в Allure,
 а отчет прикреплялся к пайплайну GitLab как артефакт.
