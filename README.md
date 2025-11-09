@@ -50,6 +50,7 @@ framework/api/LoanApi.java
 
 ```bash
 mvn clean test -Denv=stage -Dthreads=4
+```
 
 ## Визуализация отчетности и CI/CD
 
