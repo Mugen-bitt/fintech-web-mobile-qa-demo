@@ -1,1 +1,12 @@
+## Визуализация отчетности и CI/CD
 
+Пример Allure-отчета:
+
+![Allure Report Example](docs/allure.png)
+
+Пример пайплайна GitLab CI:
+
+![GitLab Pipeline](docs/gitlab-pipeline.png)
+
+На боевом проекте результаты автотестов автоматически выгружались в Allure,
+а отчет прикреплялся к пайплайну GitLab как артефакт.
