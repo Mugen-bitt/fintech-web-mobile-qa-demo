@@ -45,3 +45,8 @@
 
 ```bash
 mvn clean test -Denv=stage -Dthreads=4
+
+Пример структуры:
+framework/core/BaseTest.java
+framework/pages/LoginPage.java
+framework/api/LoanApi.java
