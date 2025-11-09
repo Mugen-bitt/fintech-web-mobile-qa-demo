@@ -60,7 +60,7 @@ mvn clean test -Denv=stage -Dthreads=4
 Пример пайплайна GitLab CI:
 ![Pipeline](docs/Pipeline.png)
 
-## Highlights
+## Результаты
 
 - Построена архитектура автотестов на Java с применением **Selenide**, **Rest Assured**, **JUnit5**, **Allure**, **GitLab CI**  
 - Разработана концепция **data builders** и генераторов тестовых данных для повышения стабильности тестов  
