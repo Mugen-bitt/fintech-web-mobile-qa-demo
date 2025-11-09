@@ -2,11 +2,11 @@
 
 Пример Allure-отчета:
 
-![Allure Report Example](docs/allure.png)
+![Allure Report Example](docs/Allure.png)
 
 Пример пайплайна GitLab CI:
 
-![GitLab Pipeline](docs/pipeline.png)
+![Pipeline](docs/Pipeline.png)
 
 На боевом проекте результаты автотестов автоматически выгружались в Allure,
 а отчет прикреплялся к пайплайну GitLab как артефакт.
